@@ -7,10 +7,11 @@ Uploaders: Torsten Wohlfarth <towo@siduction.org>,
 Build-Depends: debhelper (>= 9),
                dh-systemd
 Standards-Version: 3.9.8
-Homepage: http://bugs.siduction.org/projects/siduction-settings
-Vcs-Git: git://git.siduction.org/code/siduction-settings.git
-Vcs-Browser: http://git.siduction.org/?p=code/siduction-settings.git;a=summary
+Homepage: https://git.siduction.org/extra/settings-mate
+Vcs-Git: https://git.siduction.org/extra/settings-mate.git
+Vcs-Browser: https://git.siduction.org/extra/settings-mate.git
 
+# mate Settings
 Package: paintitblack-mate-settings
 Architecture: all
 Depends: ${misc:Depends},
@@ -28,6 +29,6 @@ Depends: ${misc:Depends},
          paintitblack-common-livesettings,
          paintitblack-sddm-livesettings
          | paintitblack-ligthdm-gtk-livesettings
-         | paintitblack-gdm3-livesettings,
+         | paintitblack-gdm3-livesettings
 Description: Mate settings in live mode
  Pushes Mate overrides schemas in live mode

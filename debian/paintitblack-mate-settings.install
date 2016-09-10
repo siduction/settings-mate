@@ -1,5 +1,4 @@
-mate/automount-open.desktop                    usr/share/paintitblack-mate-settings/
-mate/mate-background-properties/*.xml          usr/share/mate-background-properties/
-mate/schemas/installed/*.gschema.override      usr/share/glib-2.0/schemas
-mate/etc/*                                     usr/share/paintitblack-mate-settings/etc/
-
+automount-open.desktop                     usr/share/paintitblack-mate-settings/
+usr/share/mate-background-properties       usr/share/
+usr/share/glib-2.0/schemas/installed/*     usr/share/glib-2.0/schemas
+etc                                        usr/share/paintitblack-mate-settings/
