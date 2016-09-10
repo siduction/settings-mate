@@ -36,7 +36,6 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ./debtemplate/settings.postinst \
     > ./debian/${CODENAME_SAFE}-mate-settings.postinst
 
-
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./debtemplate/livesettings.install \
@@ -62,13 +61,11 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ./debtemplate/livesettings.service \
     > ./debian/${CODENAME_SAFE}-mate-livesettings.service
 
-
 ## templating
 
 [ -d ./etc ] && rm -rf ./etc
 [ -d ./usr ] && rm -rf ./usr
-cp -a template/* .
-
+cp -r ./template/* .
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
@@ -89,7 +86,6 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./template/usr/share/glib-2.0/schemas/installed/92_org.gnome.desktop.screensaver.wallpaper.gschema.override \
     > ./usr/share/glib-2.0/schemas/installed/92_org.gnome.desktop.screensaver.wallpaper.gschema.override
-
 
 grub_template mate
 

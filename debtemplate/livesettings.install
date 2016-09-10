@@ -1,0 +1,2 @@
+usr/share/glib-2.0/schemas/live/*   usr/share/glib-2.0/schemas/
+mate-cheatcodes                     usr/share/@CODENAME_SAFE@-mate-livesettings
