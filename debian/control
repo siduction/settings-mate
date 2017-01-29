@@ -22,7 +22,6 @@ Description: Mate settings in installed mode
 Package: patience-mate-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         sidu-installer (>= 2014.01.10),
          siduction-icons,
          patience-mate-artwork,
          patience-mate-settings,
