@@ -1,3 +1,11 @@
+patience-mate-settings (2017.2.0-1) unstable; urgency=medium
+
+  * Bump Standards and compat
+  * Bump VERSION
+  * fix dependencies
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 25 Dec 2017 20:13:48 +0100
+
 patience-mate-settings (2017.1.0-1) unstable; urgency=medium
 
   * release branding
