@@ -1,3 +1,9 @@
+patience-mate-settings (2018.1.0-2) unstable; urgency=medium
+
+  * fix grub defaults 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 27 Dec 2017 01:51:00 +0100
+
 patience-mate-settings (2018.1.0-1) unstable; urgency=medium
 
   * Release 18.1
