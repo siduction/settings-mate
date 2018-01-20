@@ -1,30 +1,10 @@
-#!/bin/bash
-
-WALLPAPER=whiteroom
-CODENAME_SAFE=whiteroom
-DESCRIPTION='White Room'
-VERSION=2016.1.0
+WALLPAPER=paintitblack
+CODENAME=PaintItBlack
+CODENAME_SAFE=paintitblack
+VERSION=2018.1.0
 DISTRIBUTION=unstable
+
+FLL_LIVE_USER=siducer
 
 # Gdm3 and Gnome settings
 BACKGROUND_RENDERING_OPTION="stretched"
-
-# FLL_LIVE_USER for 10-live-cd.pkla
-FLL_LIVE_USER=siducer
-
-# Which DEs should be built
-CINNAMON=true
-GNOME=true
-KDE=true
-LXDE=true
-LXQT=true
-MATE=true
-NOX=true
-XFCE=true
-XORG=true
-
-# Which DMs should be built
-GDM=false
-LIGHTDM_GTK=true
-LIGHTDM_KDE=false
-SDDM=false
