@@ -1,12 +1,18 @@
+patience-mate-settings (2018.2.0-1) unstable; urgency=medium
+
+  * release 18.2
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 04 Mar 2018 12:53:02 +0100
+
 patience-mate-settings (2018.1.0-3) unstable; urgency=medium
 
-  * Refactored and re-bootstrapped 
+  * Refactored and re-bootstrapped
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 20 Jan 2018 22:53:22 +0100
 
 patience-mate-settings (2018.1.0-2) unstable; urgency=medium
 
-  * fix grub defaults 
+  * fix grub defaults
 
  -- Alf Gaida <agaida@siduction.org>  Wed, 27 Dec 2017 01:51:00 +0100
 
