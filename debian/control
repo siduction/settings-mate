@@ -14,8 +14,8 @@ Package: @CODENAME_SAFE@-mate-settings
 Architecture: all
 Depends: ${misc:Depends},
          @CODENAME_SAFE@-mate-artwork,
-         @CODENAME_SAFE@-sddm-settings 
-	 | @CODENAME_SAFE@-lightdm-gtk-settings 
+         @CODENAME_SAFE@-sddm-settings
+	 | @CODENAME_SAFE@-lightdm-gtk-settings
 	 | @CODENAME_SAFE@-gdm3-settings,
          @CODENAME_SAFE@-common-settings
 Description: Mate settings in installed mode

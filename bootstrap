@@ -21,7 +21,6 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ../template/debian/${CODENAME_SAFE}-mate-settings.install \
     > ./debian/${CODENAME_SAFE}-mate-settings.install
-
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ../template/debian/${CODENAME_SAFE}-mate-settings.postinst \
     > ./debian/${CODENAME_SAFE}-mate-settings.postinst
