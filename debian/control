@@ -1,4 +1,4 @@
-Source: patience-mate-settings
+Source: c-blues-mate-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,26 +10,26 @@ Vcs-Browser: https://git.siduction.org/extra/settings-mate
 Vcs-Git: https://git.siduction.org/extra/settings-mate.git
 Homepage: https://git.siduction.org/extra/settings-mate
 
-Package: patience-mate-settings
+Package: c-blues-mate-settings
 Architecture: all
 Depends: ${misc:Depends},
-         patience-mate-artwork,
-         patience-sddm-settings
-	 | patience-lightdm-gtk-settings
-	 | patience-gdm3-settings,
-         patience-common-settings
+         c-blues-mate-artwork,
+         c-blues-sddm-settings
+	 | c-blues-lightdm-gtk-settings
+	 | c-blues-gdm3-settings,
+         c-blues-common-settings
 Description: Mate settings in installed mode
  Pushes Mate overrides schemas in installed mode
 
-Package: patience-mate-livesettings
+Package: c-blues-mate-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         patience-mate-artwork,
-         patience-mate-settings,
-         patience-common-livesettings,
-         patience-sddm-livesettings
-         | patience-ligthdm-gtk-livesettings
-         | patience-gdm3-livesettings
+         c-blues-mate-artwork,
+         c-blues-mate-settings,
+         c-blues-common-livesettings,
+         c-blues-sddm-livesettings
+         | c-blues-ligthdm-gtk-livesettings
+         | c-blues-gdm3-livesettings
 Description: Mate settings in live mode
  Pushes Mate overrides schemas in live mode
