@@ -1,8 +1,12 @@
-c-blues-mate-settings (2021.1.0) UNRELEASED; urgency=medium
+c-blues-mate-settings (2021.1.0) unstable; urgency=medium
 
+  [ Hendrik Lehmbruch ]
   * preparing 21.1 release c-blues 
 
- -- Hendrik Lehmbruch <hendrikl@siduction.org>  Tue, 26 Jan 2021 22:06:03 +0100
+  [ Torsten Wohlfarth ]
+  * build and upload for release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 30 Jan 2021 18:08:28 +0100
 
 patience-mate-settings (2018.3.0-1) unstable; urgency=medium
 
