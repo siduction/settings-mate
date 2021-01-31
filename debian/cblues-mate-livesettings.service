@@ -1,0 +1,11 @@
+[Unit]
+Description=Mate cheatcodes in live media
+ConditionPathExists=/usr/share/cblues-mate-livesettings/
+After=common-livesettings-cblues.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/cblues-mate-livesettings/mate-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

@@ -1,4 +1,4 @@
-Source: c-blues-mate-settings
+Source: cblues-mate-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,26 +10,26 @@ Vcs-Browser: https://git.siduction.org/extra/settings-mate
 Vcs-Git: https://git.siduction.org/extra/settings-mate.git
 Homepage: https://git.siduction.org/extra/settings-mate
 
-Package: c-blues-mate-settings
+Package: cblues-mate-settings
 Architecture: all
 Depends: ${misc:Depends},
-         c-blues-mate-artwork,
-         c-blues-sddm-settings
-	 | c-blues-lightdm-gtk-settings
-	 | c-blues-gdm3-settings,
-         c-blues-common-settings
+         cblues-mate-artwork,
+         cblues-sddm-settings
+	 | cblues-lightdm-gtk-settings
+	 | cblues-gdm3-settings,
+         cblues-common-settings
 Description: Mate settings in installed mode
  Pushes Mate overrides schemas in installed mode
 
-Package: c-blues-mate-livesettings
+Package: cblues-mate-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         c-blues-mate-artwork,
-         c-blues-mate-settings,
-         c-blues-common-livesettings,
-         c-blues-sddm-livesettings
-         | c-blues-ligthdm-gtk-livesettings
-         | c-blues-gdm3-livesettings
+         cblues-mate-artwork,
+         cblues-mate-settings,
+         cblues-common-livesettings,
+         cblues-sddm-livesettings
+         | cblues-ligthdm-gtk-livesettings
+         | cblues-gdm3-livesettings
 Description: Mate settings in live mode
  Pushes Mate overrides schemas in live mode
