@@ -1,0 +1,11 @@
+[Unit]
+Description=Mate cheatcodes in live media
+ConditionPathExists=/usr/share/farewell-mate-livesettings/
+After=common-livesettings-farewell.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/farewell-mate-livesettings/mate-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

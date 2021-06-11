@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Automount Open file
 Icon=
-Exec=/usr/share/c-blues-mate-settings/automount-open
+Exec=/usr/share/farewell-mate-settings/automount-open
 Terminal=false
 Type=Application
 Categories=Utility;
