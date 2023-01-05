@@ -1,4 +1,4 @@
-Source: wintersky-mate-settings
+Source: mow-mate-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,26 +10,26 @@ Vcs-Browser: https://git.siduction.org/extra/settings-mate
 Vcs-Git: https://git.siduction.org/extra/settings-mate.git
 Homepage: https://git.siduction.org/extra/settings-mate
 
-Package: wintersky-mate-settings
+Package: mow-mate-settings
 Architecture: all
 Depends: ${misc:Depends},
-         wintersky-mate-artwork,
-         wintersky-sddm-settings
-	 | wintersky-lightdm-gtk-settings
-	 | wintersky-gdm3-settings,
-         wintersky-common-settings
+         mow-mate-artwork,
+         mow-sddm-settings
+	 | mow-lightdm-gtk-settings
+	 | mow-gdm3-settings,
+         mow-common-settings
 Description: Mate settings in installed mode
  Pushes Mate overrides schemas in installed mode
 
-Package: wintersky-mate-livesettings
+Package: mow-mate-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         wintersky-mate-artwork,
-         wintersky-mate-settings,
-         wintersky-common-livesettings,
-         wintersky-sddm-livesettings
-         | wintersky-ligthdm-gtk-livesettings
-         | wintersky-gdm3-livesettings
+         mow-mate-artwork,
+         mow-mate-settings,
+         mow-common-livesettings,
+         mow-sddm-livesettings
+         | mow-ligthdm-gtk-livesettings
+         | mow-gdm3-livesettings
 Description: Mate settings in live mode
  Pushes Mate overrides schemas in live mode

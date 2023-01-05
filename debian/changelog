@@ -1,8 +1,12 @@
-c-blues-mate-settings (2021.1.0) UNRELEASED; urgency=medium
+mow-mate-settings (2022.1.0-1) unstable; urgency=medium
 
+  [ Hendrik Lehmbruch ]
   * preparing 21.1 release c-blues 
 
- -- Hendrik Lehmbruch <hendrikl@siduction.org>  Tue, 26 Jan 2021 22:06:03 +0100
+  [ Torsten Wohlfarth ]
+  * Masters of War
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 05 Jan 2023 21:45:06 +0100
 
 patience-mate-settings (2018.3.0-1) unstable; urgency=medium
 
